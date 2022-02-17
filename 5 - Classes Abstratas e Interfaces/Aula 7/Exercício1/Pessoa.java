@@ -18,12 +18,7 @@ public abstract class Pessoa {
 		this.endereco = endereco;
 	}
 
-	public String toString() {
-		return "Nome = " + nome +
-				"\nCPF: " + cpf +
-				"\nTelefone: " + telefone +
-				"\nEndereco" + endereco;
-	}
+	public abstract String toString();
 
 	// Getters
 
