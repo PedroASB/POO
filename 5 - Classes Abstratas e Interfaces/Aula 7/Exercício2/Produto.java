@@ -6,17 +6,24 @@ public class Produto implements Archivable {
 	private UUID id;
 	private String nome;
 	private String categoria;
-	private double precoUnitario; // preco
+	private double precoUnitario;
 
 	public Produto(){
 		this.id = UUID.randomUUID();
 	}
 
-	public Produto(String nome, String categoria, double precoUnitario){
+	public Produto(String nome, String categoria, double precoUnitario) {
 		this.id = UUID.randomUUID();
 		this.nome = nome;
 		this.categoria = categoria;
 		this.precoUnitario = precoUnitario;
+	}
+
+	public String toString() {
+		return "Nome: " + nome +
+				"\nID: " + id +
+				"\nCategoria: " + categoria +
+				"\nPreco: " + precoUnitario;
 	}
 
 	// Archivable
@@ -29,7 +36,10 @@ public class Produto implements Archivable {
 	@Override
 	public Object getClone() {
 		Produto clone = new Produto(nome, categoria, precoUnitario);
-		clone.id = this.id; // o "clone" gera um ID novo, mas ele deve ser o mesmo do produto
+
+		// o "clone" gera um ID novo, mas ele deve ser o mesmo do produto
+		clone.id = this.id;
+
 		return clone;
 	}
 
