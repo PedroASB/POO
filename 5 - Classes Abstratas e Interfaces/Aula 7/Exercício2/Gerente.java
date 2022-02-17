@@ -20,10 +20,10 @@ public class Gerente extends Funcionario implements Archivable {
 
 	@Override
 	public String toString() {
-		return "Nome = " + nome +
+		return "Nome: " + nome +
 				"\nCPF: " + cpf +
 				"\nTelefone: " + telefone +
-				"\nEndereco" + endereco +
+				"\n| Endereco |\n" + endereco +
 				"\nMatricula: " + matricula +
 				"\nSalario: " + salario +
 				"\nBonus mensal: " + bonusMensal;
