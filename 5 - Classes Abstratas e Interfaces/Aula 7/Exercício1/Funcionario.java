@@ -13,16 +13,6 @@ public abstract class Funcionario extends Pessoa {
 		setSalario(salario);
 	}
 
-	@Override
-	public String toString() {
-		return "Nome: " + nome +
-				"\nCPF: " + cpf +
-				"\nTelefone: " + telefone +
-				"\n| Endereco |\n" + endereco +
-				"\nMatricula: " + matricula +
-				"\nSalario: " + salario;
-	}
-
 	// Getters
 
 	public String getMatricula() {
