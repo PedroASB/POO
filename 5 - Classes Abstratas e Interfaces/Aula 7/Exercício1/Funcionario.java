@@ -15,10 +15,10 @@ public abstract class Funcionario extends Pessoa {
 
 	@Override
 	public String toString() {
-		return "Nome = " + nome +
+		return "Nome: " + nome +
 				"\nCPF: " + cpf +
 				"\nTelefone: " + telefone +
-				"\nEndereco" + endereco +
+				"\n| Endereco |\n" + endereco +
 				"\nMatricula: " + matricula +
 				"\nSalario: " + salario;
 	}
