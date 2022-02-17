@@ -16,7 +16,7 @@ public class Cliente extends Pessoa {
 		return "Nome: " + nome +
 				"\nCPF: " + cpf +
 				"\nTelefone: " + telefone +
-				"\nEndereco" + endereco +
+				"\n| Endereco |\n" + endereco +
 				"Renda media mensal declarada: " + rendaMensal;
 	}
 
