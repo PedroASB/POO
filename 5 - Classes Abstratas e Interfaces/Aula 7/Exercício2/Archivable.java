@@ -3,6 +3,6 @@ package Exercício2;
 import java.util.UUID;
 
 public interface Archivable {
-	public UUID getID();
-	public Object getClone();
+	UUID getID(); // public and abstract
+	Object getClone(); // public and abstract
 }
