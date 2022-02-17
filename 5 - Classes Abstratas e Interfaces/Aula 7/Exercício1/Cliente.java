@@ -13,7 +13,7 @@ public class Cliente extends Pessoa {
 
 	@Override
 	public String toString() {
-		return "Nome = " + nome +
+		return "Nome: " + nome +
 				"\nCPF: " + cpf +
 				"\nTelefone: " + telefone +
 				"\nEndereco" + endereco +
