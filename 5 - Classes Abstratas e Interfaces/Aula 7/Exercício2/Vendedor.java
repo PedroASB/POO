@@ -14,10 +14,10 @@ public class Vendedor extends Funcionario {
 
 	@Override
 	public String toString() {
-		return "Nome = " + nome +
+		return "Nome: " + nome +
 				"\nCPF: " + cpf +
 				"\nTelefone: " + telefone +
-				"\nEndereco" + endereco +
+				"\n| Endereco |\n" + endereco +
 				"\nMatricula: " + matricula +
 				"\nSalario: " + salario +
 				"\nPorcentagem de venda: " + porcentagemVenda;
