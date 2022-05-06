@@ -10,7 +10,8 @@ public class Empresa {
 	}
 
 	public String toString() {
-		return "CNPJ: " + cnpj + "\nRazao social: " + razao;
+		return "CNPJ: " + cnpj + "\nRazao social: " + razao +
+				"\n| Endereco da empresa |\n" + endereco;
 	}
 
 	public String getCnpj() {

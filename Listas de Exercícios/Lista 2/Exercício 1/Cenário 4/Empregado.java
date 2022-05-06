@@ -10,7 +10,8 @@ public class Empregado {
 	}
 
 	public String toString() {
-		return "Nome: " + nome + "\nMatricula: " + matricula;
+		return "Nome: " + nome + "\nMatricula: " + matricula +
+				"\n| Dados da empresa |\n" + empresa;
 	}
 
 	public String getNome() {
