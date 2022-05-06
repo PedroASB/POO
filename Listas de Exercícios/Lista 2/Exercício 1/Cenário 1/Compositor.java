@@ -8,7 +8,7 @@ public class Compositor {
 	}
 
 	public String toString() {
-		return "Nome do compositor: " + nome +
+		return "Nome: " + nome +
 				"\nNacionalidade: " + nacionalidade;
 	}
 
