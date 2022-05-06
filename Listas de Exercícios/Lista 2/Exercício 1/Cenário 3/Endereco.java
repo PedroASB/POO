@@ -18,7 +18,7 @@ public class Endereco {
 
 	public String toString() {
 		return "Rua: " + rua + "\nNumero: " + numero + "\nBairro: " +
-				bairro + "\nComplemento" + complemento + "\nCidade" +
+				bairro + "\nComplemento: " + complemento + "\nCidade: " +
 				cidade + "\nEstado: " + estado;
 	}
 

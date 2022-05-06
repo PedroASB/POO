@@ -10,11 +10,9 @@ public class Cliente {
 	}
 
 	public String toString() {
-		return "Nome do cliente: " + nome +
-				"\nCPF: " + cpf;
-		/*
-			Endereco
-		*/
+		return "Nome: " + nome +
+				"\nCPF: " + cpf + "\n| Endereco |\n" +
+				endereco;
 	}
 
 	public String getNome() {
