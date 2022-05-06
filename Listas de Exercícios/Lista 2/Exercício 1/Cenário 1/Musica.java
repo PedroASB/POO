@@ -14,8 +14,15 @@ public class Musica {
 	}
 
 	public String toString() {
+		StringBuilder compositoresString = new StringBuilder();
+
+		for (Compositor c : compositores) {
+			compositoresString.append(c).append("\n");
+		}
+
 		return "Nome da musica: " + nome + "\nTipo: " +
-				tipo + "\nAno: " + ano;
+				tipo + "\nAno: " + ano + "\n| Compositores |\n" +
+				compositoresString;
 	}
 
 	public String getNome() {
