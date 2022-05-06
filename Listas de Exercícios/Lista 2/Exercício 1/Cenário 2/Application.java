@@ -13,7 +13,6 @@ public class Application {
 		Aluno aluno4 = new Aluno("Lucas", 814569834, 2021, cienciasBiologicas);
 		Aluno aluno3 = new Aluno("Beatriz", 801478952, 2018, biomedicina);
 
-
 		System.out.println("-- Aluno 1 --");
 		System.out.println(aluno1);
 		System.out.println("\n-- Aluno 2 --");

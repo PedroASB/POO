@@ -12,7 +12,7 @@ public class Aluno {
 	}
 
 	public String toString() {
-		return "Nome do aluno: " + nome + "\nMatricula: " +
+		return "Nome: " + nome + "\nMatricula: " +
 				matricula + "\nAno: " + ano + "\n" + curso;
 	}
 
