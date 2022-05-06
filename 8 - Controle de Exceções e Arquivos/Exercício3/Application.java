@@ -10,11 +10,11 @@ public class Application {
 		try {
 			reader = new BufferedReader(
 					new InputStreamReader(
-							new FileInputStream("D:\\Projetos Java\\ProjectJava\\Aula 11\\src\\Exercício3\\first_file.txt")));
+							new FileInputStream("first_file.txt")));
 
 			writer = new PrintWriter(
 					new OutputStreamWriter(
-							new FileOutputStream("D:\\Projetos Java\\ProjectJava\\Aula 11\\src\\Exercício3\\second_file.txt")));
+							new FileOutputStream("second_file.txt")));
 
 			String str;
 			while ((str = reader.readLine()) != null) {
